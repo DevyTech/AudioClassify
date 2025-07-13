@@ -26,7 +26,7 @@ def save_mfcc_image(wav_path, image_path):
 save_mfcc_image(folder_path, output_folder)
 
 # Load model
-model = tf.keras.models.load_model('model/model_final.h5')
+model = tf.keras.models.load_model('model/cnn_model_ayam.h5')
 
 # Load LabelEncoder
 with open('label_encoder.pkl', 'rb') as f:
